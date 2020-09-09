@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title> To do List - Javascript</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="header">
+            <div class="clear">
+                <i class="fa fa-refresh">atualizar</i>
+            </div>
+            <div id="date">data</div>
+        </div> <!--Imagem, atualizar e data-->
+
+        -----------------
+        <div class="content">
+            <ul id="list">
+
+                <li class="item">
+                    <i class="fa fa-circle-thin complete"></i>
+                    <p class="text">Drink coffee</p>
+                    <i class="fa fa-trash-o delete"></i>
+                </li>
+
+
+            </ul><!--Lista texto com icones de apagar, riscar item-->
+            -----------
+            <div class="add-item">
+                <i class="fa fa-plus-circle"></i>
+                <input type="text" id="input" placeholder="add a to-do">
+            </div> <!--botão para adicionar e input para escrever -->
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
